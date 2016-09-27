@@ -10,6 +10,34 @@ jcfr/dock-kwalify
   |dock-kwalify| Dockerized version of kwalify.
 
 
+Usage
+-----
+
+::
+
+  $ kwalify --help
+  kwalify - schema validator and data binding tool for YAML and JSON
+  ## Usage1: validate yaml document
+  kwalify [..options..] -f schema.yaml doc.yaml [doc2.yaml ...]
+  ## Usage2: validate schema definition
+  kwalify [..options..] -m schema.yaml [schema2.yaml ...]
+  ## Usage3: do action
+  kwalify [..options..] -a action -f schema.yaml [schema2.yaml ...]
+    -h, --help     : help
+    -v             : version
+    -q             : quiet
+    -s             : silent (obsolete, use '-q' instead)
+    -f schema.yaml : schema definition file
+    -m             : meta-validation mode
+    -t             : expand tab characters
+    -l             : show linenumber when errored (experimental)
+    -E             : show errors in emacs-style (experimental, implies '-l')
+    -a action      : action ('genclass-ruby', 'genclass-php', 'genclass-java')
+                     (try '-ha genclass-ruby' for details)
+    -I path        : template path (for '-a')
+    -P             : allow preceding alias
+
+
 Installation
 ------------
 
