@@ -3,8 +3,8 @@ dock-kwalify
 
 Dockerized version of `kwalify <http://www.kuwata-lab.com/kwalify/>`_: Parser, schema validator, and data binding tool for YAML and JSON.
 
-.. |dock-kwalify| image:: https://badge.imagelayers.io/jcfr/dock-kwalify:latest.svg
-  :target: https://imagelayers.io/?images=jcfr/dock-kwalify:latest
+.. |dock-kwalify| image:: https://images.microbadger.com/badges/image/jcfr/dock-kwalify.svg
+  :target: https://microbadger.com/images/jcfr/dock-kwalify
 
 jcfr/dock-kwalify
   |dock-kwalify| Dockerized version of kwalify.
