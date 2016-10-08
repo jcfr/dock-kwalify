@@ -51,8 +51,8 @@ To install the helper script, copy the script `kwalify` in your `PATH`::
   chmod +x ~/bin/kwalify
 
 
-Maintainance
-------------
+Maintenance
+-----------
 
 To rebuild the image::
 
